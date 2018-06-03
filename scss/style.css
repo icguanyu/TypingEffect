@@ -1,0 +1,43 @@
+@import url(//fonts.googleapis.com/earlyaccess/notosanstc.css);
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Noto Sans TC', sans-serif;
+  height: 100%;
+  overflow: hidden;
+}
+
+html {
+  background: linear-gradient(to bottom, #165f90, #0a1f33);
+}
+
+h1, h2, h3, h4, h5, h6, p, span, ul, li {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.wrap {
+  width: 60%;
+  display: inline-block;
+}
+
+h1 {
+  display: block;
+  font-size: 48px;
+  letter-spacing: 5px;
+}
+
+p {
+  text-align: left;
+  font-size: 12pt;
+  letter-spacing: 2px;
+  display: none;
+}
+/*# sourceMappingURL=style.css.map */
